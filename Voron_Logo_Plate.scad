@@ -4,7 +4,7 @@ logo=true;
 serial_length=len(serial);
 
 baseplate6= logo ? "Serial_Plate_Voron_Logo.stl" : "Serial_Plate_Voron_NoLogo.stl";
-baseplate7= logo ? "Serial_Plate_Voron_Logo_7Len.stl" : "Serial_Plate_Voron_NoLogo_7Len.stl";
+baseplate7= logo ? "Serial_Plate_Voron_Logo_7Len_9mm.stl" : "Serial_Plate_Voron_NoLogo_7Len.stl";
 
 baseplate= (serial_length<7)? baseplate6 : baseplate7;
 
